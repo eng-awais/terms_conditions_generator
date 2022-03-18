@@ -6,7 +6,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * Installing
   - Ruby version 3.0.0
-  - rvm install 2.5.3
+  - rvm install 3.0.0
 
 * Clone the repository
   - git clone https://github.com/eng-awais/terms_conditions_generator.git
@@ -31,7 +31,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * Workflow and functionality
   - User can incorporate the CLAUSE and SECTION in template by running the single script.
-  - User can change the template by following the same conventions that we've currently in our template and dataset document. 
+  - User can change the template by following the same conventions that we're currently following in our template and dataset document. 
 
 * Time Spent: 
   - I've spent the 5 hours and 40 minutes to get this work done. I had a very busy schedule that's why I was not able to start it earlier. 

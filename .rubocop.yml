@@ -1,0 +1,26 @@
+require:
+  - rubocop-rails
+  - rubocop-rspec
+AllCops:
+  Exclude:
+    - datasets/*
+    - templates/*
+  NewCops: enable
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*.rb'
+Style/Documentation:
+  # Note that these paths are excluded as thier intent is typically obvious.
+  # Documentation like "Parser for X Reader." is not very helpful. If any of
+  # these do anything special then please document them!
+  Exclude:
+    - datasets/*
+    - templates/*
+    - documents/**/*
+    - 'terms_generator.rb'
+RSpec/NestedGroups:
+  Max: 7
+RSpec/MultipleMemoizedHelpers:
+  Max: 7
+RSpec/MultipleExpectations:
+  Enabled: false

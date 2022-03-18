@@ -3,8 +3,8 @@
 require 'pry'
 require_relative 'documents/writer/content'
 class TermsGenerator
-
   attr_reader :file_name
+
   def initialize(name = 'template_output.txt')
     @file_name = name
     @out_file = File.new(name, 'w+')

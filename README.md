@@ -39,4 +39,4 @@ These instructions will get you a copy of the project up and running on your loc
   - If I've given a more time I can implement the exception handler to cover all the possible exceptions. Currently I've implemented to consider the 
     present files data pattern but I can also implement it in multiple and better ways. I was also thinking If we get the file names from user on run time
     by implement the ARGV-the command line arguments of a Ruby program. We can also generate multiple output files of different templates and datasets. 
-    We can perform sorting and code optimizations to get the best asymptotic analysis results.
+    We can perform sorting and code optimizations to get the best asymptotic analysis results. I'll work to improve the test specs that I've                   implemented and also add more to cover the more functionality.
